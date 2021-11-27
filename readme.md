@@ -2,8 +2,8 @@
 
 Crach course for Git
 
-function other($param1, $param2){
-return 12+14;
-$value = other(12,12);
+function other($param1, $param2, $param3){
+return $param1+$param2+$param3;
+$value = other(12,12,12);
 echo $value;
 }
